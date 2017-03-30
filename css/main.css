@@ -1,0 +1,14 @@
+.projects {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+.project {
+    width: 40%;
+    padding: 5vw;
+    }
+}
+.project .hide {
+    display:none;
+}
