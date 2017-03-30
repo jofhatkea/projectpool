@@ -16,7 +16,7 @@
     display:none;
 }
 
-img[src="images/todolist.png"]{
+.exampe{
 	float: right;
 	border: 1px solid;
 	width: 12em;
