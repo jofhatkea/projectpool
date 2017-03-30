@@ -15,3 +15,15 @@
 .project .hide {
     display:none;
 }
+
+img[src="images/todolist.png"]{
+	float: right;
+	border: 1px solid;
+	width: 12em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+h3{
+	clear: both;
+}
