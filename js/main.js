@@ -1,4 +1,4 @@
-window.addEventListener('load', setup);
+/*window.addEventListener('load', setup);
 
 function setup(){
     document.querySelectorAll('.project .content').forEach(hide);
@@ -7,3 +7,4 @@ function setup(){
         el.classList.add('hidden')
     }
 }
+*/
