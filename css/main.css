@@ -6,6 +6,18 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+.jumbotron h1 span {
+    display:inline-block;
+    animation: rotate 1s 2 alternate;
+}
+@keyframes rotate {
+    0% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaleY(-1);
+    }
+}
 @media (min-width: 768px) {
 .project {
     width: 50%;

@@ -36,8 +36,8 @@
 					<li>A new project every day. <ul>
 						<li>Don't work on the same with two partners.</li>
 						<li>But show your work, get inspired.</li>
-						</ul></li>
-
+						</ul>
+				    </li>
 				</ol>
 			</header>
 		</section>
@@ -124,13 +124,16 @@
 				<article class="project">
 					<h2>Animated Menu</h2>
 					<p class="lead">
-						Bla...
+						Make an animated menu
 					</p>
 					<div class="content">
-						<p>Burger menu</p>
+						<p>You could start with the "Burger menu" you made on T1, and animate it, but it could be so much more</p>
+						<p>With a little positioning and a few transforms, you could make it fly in, expand, highlight etc</p>
 						<div class="advanced-features">
 							<h3>Advanced features</h3>
-							<p>Inspiration</p>
+
+							<p>This is beyond our scope here, but take a few seconds to think about what works, and what doesn't</p>
+							<p><strong>Inspiration</strong></p>
 							<img src="gfx/showoff-menu.gif" alt="">
 						</div>
 					</div>
@@ -168,24 +171,52 @@
 				<article class="project">
 					<h2>Custom fortune teller</h2>
 					<p class="lead">
-						Jonas
+						Remember the fortune teller? Let's make it a little smarter
 					</p>
 					<div class="content">
-						<p>bla, bla</p>
+						<p>Make a few form elements and hook them up to the fortune teller function you built earlier in this theme</p>
+						<p>The user should be able to type in their spouse, job, place of living, kids and whatever you might think of</p>
+						<p>When something happens (a button is clicked?) write out the relevant info (in some sematic HTML) and hide the form</p>
 						<div class="advanced-features">
 							<h3>Advanced features</h3>
+							<p>Suggestions</p>
+							<ol>
+							    <li>Add a reset button</li>
+							    <li>Add some simple validation, make sure all fields have been filled</li>
+							</ol>
 						</div>
 					</div>
 				</article>
 				<article class="project">
 					<h2>Image switcher, carousel with existing images</h2>
 					<p class="lead">
-						Jonas
+						Remember our simple image switcher?
 					</p>
 					<div class="content">
-						<p>bla, bla</p>
+						<p>Turns out there is a few problems with it</p>
+						<p>For a start, all the images are not preloaded, which means the browser will have to download the VERY fast in order to keep up, that might not happen</p>
+						<p>Your task is to make an image-switcher / carousel that takes existing images in the webpage and turns them into the same thing</p>
+						<p>The following is just one approach you might take</p>
+						<h3>Setup</h3>
+						<ol>
+						    <li>
+						        add X images to a page, make sure they all have the same class
+						    </li>
+						    <li>
+						        Position all images on top of each other (hint: <code>position:relative</code> on the parent, <code>position:absolute</code> on the images)
+						    </li>
+						    <li>
+						        Grab all the images
+						    </li>
+						    <li>Fade out the first one, makeing the second one appear</li>
+						    <li>Now repeat the previous step untill your out of images</li>
+						    <li>then ...</li>
+						</ol>
 						<div class="advanced-features">
 							<h3>Advanced features</h3>
+							<p>Start / stop button</p>
+							<p>Other animations besides fade?</p>
+							<p>...</p>
 						</div>
 					</div>
 				</article>
@@ -227,6 +258,7 @@
 						<p>Create a couple of form fields like above</p>
 						<p>Write a short <code>&lt;label&gt;</code> on what goes in each field</p>
 						<p>When the user enters, or when a button is clicked, check that the value of each field meets your criteria</p>
+						<p>Show relevant feedback, consider what you see online when something has been filled out incorrectly</p>
 						<div class="advanced-features">
 							<h3>Advanced features</h3>
 							<p>Example criteria</p>
